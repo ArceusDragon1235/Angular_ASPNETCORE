@@ -1,0 +1,7 @@
+{
+    "/**":{
+        "target":"http://localhost:5210/api/User/2",
+        "secure":false,
+        "loglevel":"debug"
+    }
+}

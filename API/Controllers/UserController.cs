@@ -25,6 +25,7 @@ public class UserController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<UserData>> GetDataasperID(int id)
     {
+        
         return dataContext.Users.Find(id);
     }
 }
