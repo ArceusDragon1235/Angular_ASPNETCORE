@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\APi\\API.csproj": {}
+    "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\APi\\API.csproj": {
+    "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\APi\\API.csproj",
+        "projectUniqueName": "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\APi\\API.csproj",
+        "projectPath": "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\API\\API.csproj",
         "packagesPath": "C:\\Users\\HAYERRAG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\APi\\obj\\",
+        "outputPath": "C:\\Users\\HAYERRAG\\Documents\\Angular_ASPNETCORE\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HAYERRAG\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -55,6 +59,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.3, )"
             }
           },
           "imports": [
